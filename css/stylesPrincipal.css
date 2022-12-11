@@ -28,8 +28,8 @@ img {
     border-radius: 20px;
     padding: 5px;
     margin-top: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
 }
 .opcoes {
@@ -37,5 +37,4 @@ img {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    cursor: pointer;
 }
