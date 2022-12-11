@@ -1,0 +1,41 @@
+h2 {
+    font-family: Helvetica;
+    color: black;
+}
+a {
+    font-family: Helvetica;
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-color: #dcdcdc;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    border-radius: 100px;
+    border-style: dotted;
+    border-color: #3c3c3c;
+
+}
+#cabecalho {
+    text-align: center;
+}
+#topicos{
+    background-color: #808080;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.opcoes {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
