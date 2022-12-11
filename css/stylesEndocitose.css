@@ -1,0 +1,41 @@
+h2, p, a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video {
+    text-align: center;
+}
+#cabecalho {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    border-radius: 8px;
+    /* background-color: #cdcdcd; */
+}
+.texto {
+    text-align: justify;
+}
+#legenda {
+    text-align: center;
+    font-size: 70%;
+    margin-top: 0px;
+}
+.rodape {
+    text-align: center;
+    padding: 1px;
+    border-radius: 5px;
+    /* background-color: #cdcdcd; */
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
