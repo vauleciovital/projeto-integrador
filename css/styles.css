@@ -1,12 +1,13 @@
-h2, a {
+h2, a, button{
     font-family: Helvetica;
+    font-size: 110%;
     color: #ffffff;
     text-decoration: none;
 }
 body {
     /* background: rgb(51,204,149);
-    background: linear-gradient(318deg, rgba(51,204,149,1) 0%, rgba(12,136,162,1) 100%); */
-    background-image: linear-gradient(3deg, rgba(51,204,149,1), rgba(18, 137, 184, 1));
+    background: linear-gradient(316deg, rgba(51,204,149,1) 0%, rgba(12 206,162,1) 100%); */
+    background-image: linear-gradient(3deg, rgb(46, 163, 112), rgb(16, 125, 149));
     height: 100vh;
 }
 img {
@@ -18,34 +19,89 @@ img {
     border-radius: 100px;
     border: 2px solid;
     border-color: #ffffff;
-
 }
 #cabecalho {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    max-width: 400px;
+    margin-bottom: 50px;
+    max-width: 550px;
 }
 #topicos{
-    padding: 5px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
     text-align: center;
 }
-.opcoes{
+.botao1 {
     background-color: rgba(255, 0, 0, 0);
-    padding: 20px;
-    margin: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 150px;
+    width: 550px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 8px;
     transition-duration: 0.4s;
     border: 2.5px solid #ffffff
+}
+.botao2 {
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 100px;
+    width: 550px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: 2.5px solid #ffffff
+}
+.botao3 {
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 100px;
+    width: 550px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: 2.5px solid #ffffff
+}
+.botao4 {
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 100px;
+    width: 550px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: 2.5px solid #ffffff
+}
+.botao1:hover {
+    background-color: #ffffff;
+    color: rgb(12, 90, 120);
+}
+.botao2:hover {
+    background-color: #ffffff;
+    color: rgb(12, 90, 120);
+}
+.botao3:hover {
+    background-color: #ffffff;
+    color: rgb(12, 90, 120);
+}
+.botao4:hover {
+    background-color: #ffffff;
+    color: rgb(12, 90, 120);
 }
 #rodape {
     font-family: Helvetica;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 60px;
 }
