@@ -1,3 +1,7 @@
+body{
+    background-color:  #9fb4a5;
+}
+
 h2, p, a {
     font-family: Helvetica;
     text-decoration: none;
@@ -11,7 +15,7 @@ h2, p, a {
     margin-right: auto;
     max-width: 300px;
     border-radius: 8px;
-    /* background-color: #cdcdcd; */
+
 }
 .texto {
     text-align: justify;
@@ -20,18 +24,13 @@ h2, p, a {
     text-align: center;
     padding: 1px;
     border-radius: 5px;
-    /* background-color: #cdcdcd; */
+  
     max-width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
+
 img {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#figura {
     display: block;
     margin-top: 50px;
     margin-left: auto;
@@ -40,12 +39,3 @@ img {
     border-radius: 100px;
     border: 2px solid;
     border-color: #ffffff;}
-#legenda {
-    text-align: center;
-    font-size: 80%;
-    margin-top: 0px;
-}
-
-body{
-    background-color: #9fb4a5;
-}
