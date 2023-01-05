@@ -1,40 +1,112 @@
-h2, p, a {
-    font-family: Helvetica;
-    text-decoration: none;
-    color: black;
+body {
+    background: #7BBBAD;
+    height: 100vh;
+
 }
-#cabecalho {
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 300px;
-    border-radius: 8px;
-    /* background-color: #cdcdcd; */
+
+header {
+    background-color: #184B66;
+    height: 110px;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
-.texto {
-    text-align: justify;
+
+#ifrn {
+    width: 50px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
 }
+
+#titulo {
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 60px;
+    width: 400px;
+    position: relative;
+    top: 30%;
+}
+
 .rodape {
     text-align: center;
     padding: 1px;
     border-radius: 5px;
-    /* background-color: #cdcdcd; */
     max-width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
-img {
-    display: block;
-    margin-top: 50px;
+
+#menuPrincipal {
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 90px;
-    border-radius: 100px;
-    border: 2px solid;
-    border-color: #ffffff;}
+    border-radius: 6px;
+    transition-duration: 0.25s;
+    border: 2.5px solid #ffffff
+}
 
-    body{
-        background-color: #9fb4a5;
-    }
+#menuPrincipal:hover {
+    background-color: #ffffff;
+    color: #9fb4a5;
+}
+
+#sumario div img {
+    width: 100px;
+    height: 80px;
+    display: block;
+}
+
+#sumario div p{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium' ;
+    padding-top: 20px;
+    margin-left:4px;
+}
+
+.menu{
+    display:flex
+}
+
+h1{
+    color: white;
+    font-family:'Franklin Gothic Medium';
+   text-align: center;
+}
+
+body p{
+    color:white;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-align:justify;
+}
+
+#img3{
+   width: 400px;
+   height: 300px;
+   border-radius: 3ch;
+   margin-left: 30px;
+}
+
+#texto{
+    display:flex;
+}
+
+#legenda{
+    font-size: 14px;
+    color:white;
+    margin-top: 3px;
+}
+
+li{
+    color:white;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-align:justify;
+}

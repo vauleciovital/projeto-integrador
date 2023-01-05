@@ -5,32 +5,27 @@ h2, a, button{
     text-decoration: none;
 }
 body {
-    /* background: rgb(51,204,149);
-    background: linear-gradient(316deg, rgba(51,204,149,1) 0%, rgba(12 206,162,1) 100%); */
-    background-image: linear-gradient(3deg, rgb(46, 163, 112), rgb(16, 125, 149));
+    background: #7BBBAD;
     height: 100vh;
 }
-img {
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90px;
-    border-radius: 100px;
-    border: 2px solid;
-    border-color: #ffffff;
+
+ 
+#ifrn{
+    width: 50px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
 }
-#cabecalho {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    max-width: 400px;
+
+body h2 {
+    margin-left: 50px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium';
+    width: 600px;
 }
-#topicos{
-    text-align: center;
-}
-.botao1 {
+
+
+.botao {
     background-color: rgba(255, 0, 0, 0);
     color: #ffffff;
     font-size: 16px;
@@ -39,65 +34,90 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    transition-duration: 0.4s;
-    border: 2.5px solid #ffffff
+    transition-duration: 0.25s;
+    border: 2.5px solid #ffffff;
 }
-.botao2 {
-    background-color: rgba(255, 0, 0, 0);
-    color: #ffffff;
-    font-size: 16px;
-    padding: 20px 110px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    border: 2.5px solid #ffffff
-}
-.botao3 {
-    background-color: rgba(255, 0, 0, 0);
-    color: #ffffff;
-    font-size: 16px;
-    padding: 20px 110px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    border: 2.5px solid #ffffff
-}
-.botao4 {
-    background-color: rgba(255, 0, 0, 0);
-    color: #ffffff;
-    font-size: 16px;
-    padding: 20px 110px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    border: 2.5px solid #ffffff
-}
-.botao1:hover {
+.botao:hover {
     background-color: #ffffff;
-    color: rgb(12, 90, 120);
+    color: #7BBBAD;
 }
-.botao2:hover {
-    background-color: #ffffff;
-    color: rgb(12, 90, 120);
-}
-.botao3:hover {
-    background-color: #ffffff;
-    color: rgb(12, 90, 120);
-}
-.botao4:hover {
-    background-color: #ffffff;
-    color: rgb(12, 90, 120);
-}
+
 #rodape {
     font-family: Helvetica;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
     margin-top: 60px;
+}
+.botao5{
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: auto;
+    border-radius: 4px; 
+    color:white;
+    border: 2.5px solid #ffffff;
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 30px;
+}
+
+.botao6{
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px; 
+    color:white;
+    border: 2.5px solid #ffffff;
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.botao5:hover {
+    background-color: #ffffff;
+    color: #7BBBAD
+}
+.botao6:hover {
+    background-color: #ffffff;
+    color: #7BBBAD}
+
+.menu{
+    position: relative;
+    float: left;
+    display:flex;
+}
+
+
+header{
+    background-color: #184B66;
+    height: 110px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.menu p{
+    margin-top: 40px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 260px;
+}
+body p{
+    color: rgb(223, 209, 209);
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#geral{
+    width:700px;
+    float: right;
+}
+
+#topicos{
+    margin-left: 60px;
+    margin-top: 55px;
 }

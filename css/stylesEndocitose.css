@@ -1,18 +1,4 @@
-h2, p, a {
-    font-family: Helvetica;
-    text-decoration: none;
-    color: black;
-}
-#cabecalho {
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 300px;
-    border-radius: 8px;
-    /* background-color: #cdcdcd; */
-}
+
 .texto {
     text-align: justify;
 }
@@ -31,21 +17,55 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-#figura {
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90px;
-    border-radius: 100px;
-    border: 2px solid;
-    border-color: #ffffff;}
 #legenda {
     text-align: center;
     font-size: 80%;
     margin-top: 0px;
 }
+#menuPrincipal {
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    transition-duration: 0.25s;
+    border: 2.5px solid #ffffff
+}
+#menuPrincipal:hover {
+    background-color: #ffffff;
+    color: #9fb4a5;
+}
 
 body{
-    background-color: #9fb4a5;
+    background: #7BBBAD;
+    height: 100vh;
+    
+}
+
+header{
+    background-color: #184B66;
+    height: 110px;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#ifrn{
+    width: 50px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#titulo{
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 60px;
+    width: 400px;
+    position: relative;
+    top: 30%;
 }
