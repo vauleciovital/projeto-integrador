@@ -1,123 +1,128 @@
-h2, a, button{
-    font-family: Helvetica;
-    font-size: 110%;
-    color: #ffffff;
-    text-decoration: none;
-}
-body {
-    background: #7BBBAD;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+body{
+    background-color: #fffef0;
 }
 
- 
-#ifrn{
-    width: 50px;
-    float: right;
-    margin-top: 30px;
-    margin-right: 10px;
+*{
+    margin:0px;
+    padding: 0px;
 }
 
-body h2 {
-    margin-left: 50px;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium';
-    width: 600px;
+header{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    min-height: 100px;
+    background-color: #f09b75;
+    border: 2.5px solid #bd5324;
+    
 }
 
+#wbc{
+    margin-top: 20px;
+    width: 30%;
+    height: 7%;
+}
+
+.menu{
+    display:flex;
+    position: relative;
+    float:right;
+}
+
+.pags{
+    font-size: 14px;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 4px; 
+    color:white;
+    border: 2.5px solid #ffffff;
+    background-color: rgba(255, 0, 0, 0);
+}
+.pags:hover {
+    background-color: #ffffff;
+    color: #bd5324;
+}
+
+
+#rodape{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    background-color: #890f0d;
+    border: 2.5px solid #bd5324;
+
+}
+
+#logoifrn{
+    width: 18%;
+    height: 8%;
+}
+
+#titulo{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    border: 2.5px solid #bd5324;
+}
+#titulo p{
+    margin-top: 0;
+    text-align: center;
+    font-size: 180%;
+    font-family: 'Caveat Brush', 'Franklin Gothic Medium';
+}
+
+#vindas{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    border-top: 2.5px solid #bd5324;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
+#boasvindas{
+    width: 100%;
+    height:50%;
+}
+
+#fotomaket{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
+
+#maket{
+    width: 100%;
+    height: 50%;
+}
+
+#topicos{
+    max-width: 900px;
+    min-width: 300px;
+    margin:auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
+
+.opcoes{
+    text-align: center;
+}
 
 .botao {
     background-color: rgba(255, 0, 0, 0);
-    color: #ffffff;
-    font-size: 16px;
-    padding: 20px 110px;
+    color: #890f0d;
+    font-size: 1em;
+    padding: 4% 12%;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
     transition-duration: 0.25s;
-    border: 2.5px solid #ffffff;
+    border: 2.5px solid #bd5324;
 }
 .botao:hover {
     background-color: #ffffff;
-    color: #7BBBAD;
-}
-
-#rodape {
-    font-family: Helvetica;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 60px;
-}
-.botao5{
-    font-size: 14px;
-    padding: 10px 40px;
-    margin: 10px;
-    margin-left: 20px;
-    margin-right: auto;
-    border-radius: 4px; 
-    color:white;
-    border: 2.5px solid #ffffff;
-    background-color: rgba(255, 0, 0, 0);
-    margin-top: 30px;
-}
-
-.botao6{
-    font-size: 14px;
-    padding: 10px 40px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px; 
-    color:white;
-    border: 2.5px solid #ffffff;
-    background-color: rgba(255, 0, 0, 0);
-    margin-left: 10px;
-    margin-top: 30px;
-}
-
-.botao5:hover {
-    background-color: #ffffff;
-    color: #7BBBAD
-}
-.botao6:hover {
-    background-color: #ffffff;
-    color: #7BBBAD}
-
-.menu{
-    position: relative;
-    float: left;
-    display:flex;
-}
-
-
-header{
-    background-color: #184B66;
-    height: 110px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.menu p{
-    margin-top: 40px;
-    font-size: 30px;
-    color: white;
-    font-family: 'Franklin Gothic Medium';
-    margin-left: 260px;
-}
-body p{
-    color: rgb(223, 209, 209);
-    font-size: 17px;
-    margin-left: 50px;
-    font-family: 'Franklin Gothic Medium';
-}
-
-#geral{
-    width:700px;
-    float: right;
-}
-
-#topicos{
-    margin-left: 60px;
-    margin-top: 55px;
+    color: #bd5324;
 }
