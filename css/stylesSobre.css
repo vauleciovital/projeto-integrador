@@ -74,3 +74,23 @@ header{
         background-color: #ffffff;
         color: #bd5324;
     }
+
+    #conteudo {
+        max-width: 900px;
+        min-width: 300px;
+        margin: auto;
+        border-left: 2.5px solid #bd5324;
+        border-right: 2.5px solid #bd5324;
+    }
+    
+    #conteudo p {
+        font-size: 1em;
+        max-width: 800px;
+        text-align: justify;
+    }
+    
+    #textoconteudo {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
