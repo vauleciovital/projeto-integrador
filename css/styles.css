@@ -20,17 +20,16 @@ header{
 #wbc{
     width: 30%;
     height: 7%;
-    margin-right: 80px;
 }
 
 .menu{
     display:flex;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 #cabecalho {
-    display: flex;/*coloca um seletor de um lado outro do outro*/
-    justify-content: space-around;/*coloca espaço entre os seletores*/
-    align-items: center;/*alinha o "logo" com outro seletor*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px;
     flex-wrap: wrap;
 }
