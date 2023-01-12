@@ -17,23 +17,28 @@ header{
     border: 2.5px solid #bd5324;
     
 }
-
 #wbc{
-    margin-top: 20px;
     width: 30%;
     height: 7%;
+    margin-right: 80px;
 }
 
 .menu{
     display:flex;
-    position: relative;
-    float:right;
+    margin-right: 20px;
+}
+#cabecalho {
+    display: flex;/*coloca um seletor de um lado outro do outro*/
+    justify-content: space-around;/*coloca espaço entre os seletores*/
+    align-items: center;/*alinha o "logo" com outro seletor*/
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 .pags{
     font-size: 14px;
-    padding: 10px 40px;
-    margin: 10px;
+    padding: 8% 24%;
+    margin: 30px;
     border-radius: 4px; 
     color:white;
     border: 2.5px solid #ffffff;
