@@ -87,10 +87,16 @@ header{
         font-size: 1em;
         max-width: 800px;
         text-align: justify;
+        font-family:'Caveat Brush', 'Franklin Gothic Medium';
     }
     
     #textoconteudo {
-        display: flex;
-        justify-content: center;
-        margin:auto;
+            width: 70%;
+            margin: 0 auto;
+
+          
+    }
+
+    #textoconteudo p{
+        padding-top: 20px;
     }
