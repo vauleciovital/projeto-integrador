@@ -25,6 +25,13 @@ header{
 .video {
     text-align: center;
 }
+#conteudo {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
 .texto {
     font-size: 1em;
     max-width: 800px;
