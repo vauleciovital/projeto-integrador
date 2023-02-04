@@ -16,7 +16,7 @@ header{
     border: 2.5px solid #bd5324;
     
 }
-img {
+#img {
     width: 400px;
     display: block;
     margin-left: auto;
@@ -26,6 +26,8 @@ img {
     text-align: center;
 }
 .texto {
+    font-size: 1em;
+    max-width: 800px;
     text-align: justify;
 }
 #legenda {
