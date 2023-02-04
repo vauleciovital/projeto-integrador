@@ -35,6 +35,9 @@ header{
 .texto {
     font-size: 1em;
     max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
     text-align: justify;
 }
 #legenda {
