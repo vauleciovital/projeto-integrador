@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doenças relacionadas</title>
     <link rel="stylesheet" type="text/css" href="./css/stylesDoencas.css" media="screen" />
+    <script src="scriptDoencas.js"> </script>
 </head>
+
 <body>
     <header>
         <section id="cabecalho">
@@ -19,7 +22,63 @@
     <section id="ponto">
         <img src="imgs/doencas.png" id="tema">
     </section>
-    <section id = "voltar">
+    <section id="conteudo">
+        <div class="texto">
+            <p> Os glóbulos brancos são responsáveis por proteger nosso corpo contra doenças, enfermidades e
+                micro-organismos nocivos. Quando o nível de leucócitos se encontra fora do esperado, pode ser sinal de
+                uma
+                condição relacionada a eles. Para determinar se o nível de leucócitos está adequado, é necessário
+                realizar
+                um exame de sangue, conhecido como hemograma, que analisa a quantidade e o tipo de células sanguíneas.
+                Em
+                caso de resultado anormal, o médico poderá fazer mais investigações e prescrever o tratamento adequado.
+            </p>
+
+            <h1> Leucopenia</h1>
+            <img id="doenca_um" src="imgs/doenca_um.png" onclick="doenca_um()">
+
+            <p id="text_um" style="display:none"> Leucopenia é uma condição médica na qual há uma redução no número de
+                leucócitos (glóbulos brancos) no sangue. Isso não é uma doença em si, mas sim uma manifestação
+                hematológica de uma condição subjacente, como anemia, problemas no sistema imunológico ou câncer. Os
+                leucócitos são importantes na defesa do corpo contra infecções e doenças. Uma contagem baixa de
+                leucócitos indica que o corpo possui menos células de defesa do que o normal. Para homens adultos, uma
+                contagem normal de leucócitos está entre 4.500 a 11.000 por milímetro cúbico de sangue. Valores abaixo
+                disso podem ser considerados leucopenia.</p>
+
+            <h1> Leucocitose </h1>
+
+            <img id="doenca_dois" src="imgs/doenca_dois.png" onclick="doenca_dois()">
+
+            <p id="text_dois" style="display:none"> Leucocitose é o termo médico que se refere a um aumento no número de
+                leucócitos (glóbulos brancos) no
+                sangue. Isso pode ocorrer como resposta a uma infecção ou outra condição que afete o corpo.
+                <br>
+                <b> Tipos de leucocitose:</b>
+                <b>Neutrofilia:</b> É a presença excessiva de neutrófilos no sangue, o que pode indicar
+                infecções bacterianas ou fúngicas.
+                <br>
+                <b>Eosinofilia:</b> É a presença excessiva de eosinófilos no sangue, o que pode indicar
+                doenças alérgicas ou infecções parasitárias.
+                <br>
+                <b>Basofilia:</b> É a presença excessiva de basófilos no sangue, o que pode ser uma
+                resposta a doenças inflamatórias.
+                <br>
+                <b>Linfocitose:</b> É a presença excessiva de linfócitos no sangue, o que pode indicar
+                infecções virais ou doenças do sistema imunológico.
+                <br>
+                <b>Monocitose:</b> É a presença excessiva de monócitos no sangue, o que pode ser uma
+                resposta a infecções bacterianas ou fúngicas graves.
+                <br>
+                É importante notar que uma contagem elevada de leucócitos não sempre é indicativa de uma doença. Outros
+                fatores, como estresse e atividade física, também podem elevar a contagem de leucócitos. O diagnóstico
+                preciso deve ser feito por um médico, com base em uma série de exames e avaliações clínicas.
+            </p>
+
+
+        </div>
+    </section>
+
+    <section id="voltar">
         <a href="index.html"><button id="menuPrincipal">Voltar para a página principal</button></a>
     </section>
 </body>
@@ -28,4 +87,5 @@
         <img src="imgs/logoverde.png" id="logoifrn">
     </section>
 </footer>
+
 </html>
