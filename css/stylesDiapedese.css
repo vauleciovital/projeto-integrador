@@ -91,3 +91,45 @@ header{
         height: 50%;
     }
     
+    #conteudo {
+        max-width: 900px;
+        min-width: 300px;
+        margin: auto;
+        border-left: 2.5px solid #bd5324;
+        border-right: 2.5px solid #bd5324;
+    }
+
+    .texto {
+        font-size: 1em;
+        max-width: 800px;
+        justify-content: center;
+        margin: auto;
+        text-align: justify;
+    }
+    
+    .texto img{
+            width: 70%;
+            height: 30%;
+            display:block;
+            margin:auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: #890f0d;
+        padding-top: 20px;
+    }
+    
+
+    #legenda{
+        text-align:center;
+        font-size:0.8em;
+        padding-bottom:10px;
+    }
+
+    #etapas{
+        display:block;
+        margin:auto;
+        width: 70%;
+        height: 30%;
+    }
