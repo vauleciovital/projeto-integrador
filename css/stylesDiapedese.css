@@ -31,7 +31,9 @@ header {
     margin: auto;
     background-color: #890f0d;
     border: 2.5px solid #bd5324;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #logoifrn {

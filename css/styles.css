@@ -59,7 +59,9 @@ header {
     margin: auto;
     background-color: #890f0d;
     border: 2.5px solid #bd5324;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #logoifrn {
@@ -138,20 +140,5 @@ header {
     color: #bd5324;
 }
 
-#quizz {
-    background-color: rgba(255, 0, 0, 0);
-    color: white;
-    font-size: 1em;
-    padding: 2% 4%;
-    border-radius: 8px;
-    transition-duration: 0.25s;
-    border: 2.5px solid #bd5324;
-}
 
-#rodape{
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-}
