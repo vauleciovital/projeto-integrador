@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body {
+    background-color: #fffef0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    min-height: 100px;
+    background-color: #f09b75;
+    border: 2.5px solid #bd5324;
+
+}
+
+#wbc {
+    margin-top: 20px;
+    width: 30%;
+    height: 7%;
+}
+
+#rodape {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    background-color: #890f0d;
+    border: 2.5px solid #bd5324;
+
+}
+
+#logoifrn {
+    width: 18%;
+    height: 8%;
+}
+
+#titulo {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border: 2.5px solid #bd5324;
+}
+
+#titulo p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 180%;
+    font-family: 'Caveat Brush', 'Franklin Gothic Medium';
+}
+
+#voltar {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+    text-align: center;
+
+}
+
+#menuPrincipal {
+    background-color: rgba(255, 0, 0, 0);
+    color: #890f0d;
+    font-size: 1em;
+    padding: 4% 5%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    transition-duration: 0.25s;
+    border: 2.5px solid #bd5324;
+}
+
+#menuPrincipal:hover {
+    background-color: #ffffff;
+    color: #bd5324;
+}
+
+#ponto {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-top: 2.5px solid #bd5324;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+    margin-bottom: -30px;
+}
+
+#tema {
+    width: 100%;
+    height: 50%;
+}
+
+#conteudo {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
+
+.texto {
+    font-size: 1em;
+    max-width: 800px;
+    justify-content: center;
+    margin: auto;
+    text-align: justify;
+}
+
+.texto h1 {
+    max-width: 800px;
+    text-align: center;
+    color: #890f0d;
+    padding-top: 20px;
+}
+
+#doenca_um, #doenca_dois {
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 40%;
+}
