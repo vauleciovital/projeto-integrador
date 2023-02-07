@@ -1,31 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
-body{
+
+body {
     background-color: #fffef0;
 }
 
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
 }
 
-header{
+header {
     max-width: 900px;
     min-width: 300px;
-    margin:auto;
+    margin: auto;
     min-height: 100px;
     background-color: #f09b75;
     border: 2.5px solid #bd5324;
-    
+
 }
-#wbc{
+
+#wbc {
     width: 30%;
     height: 7%;
 }
 
-.menu{
-    display:flex;
+.menu {
+    display: flex;
     margin-right: 10px;
 }
+
 #cabecalho {
     display: flex;
     justify-content: space-around;
@@ -34,83 +37,86 @@ header{
     flex-wrap: wrap;
 }
 
-.pags{
+.pags {
     font-size: 14px;
     padding: 8% 24%;
     margin: 30px;
-    border-radius: 4px; 
-    color:white;
+    border-radius: 4px;
+    color: white;
     border: 2.5px solid #ffffff;
     background-color: rgba(255, 0, 0, 0);
 }
+
 .pags:hover {
     background-color: #ffffff;
     color: #bd5324;
 }
 
 
-#rodape{
+#rodape {
     max-width: 900px;
     min-width: 300px;
-    margin:auto;
+    margin: auto;
     background-color: #890f0d;
     border: 2.5px solid #bd5324;
 
 }
 
-#logoifrn{
+#logoifrn {
     width: 18%;
     height: 8%;
 }
 
-#titulo{
+#titulo {
     max-width: 900px;
     min-width: 300px;
-    margin:auto;
+    margin: auto;
     border: 2.5px solid #bd5324;
 }
-#titulo p{
+
+#titulo p {
     margin-top: 0;
     text-align: center;
     font-size: 180%;
     font-family: 'Caveat Brush', 'Franklin Gothic Medium';
 }
 
-#vindas{
+#vindas {
     max-width: 900px;
     min-width: 300px;
-    margin:auto;
+    margin: auto;
     border-top: 2.5px solid #bd5324;
     border-left: 2.5px solid #bd5324;
     border-right: 2.5px solid #bd5324;
 }
-#boasvindas{
-    width: 100%;
-    height:50%;
-}
 
-#fotomaket{
-    max-width: 900px;
-    min-width: 300px;
-    margin:auto;
-    border-left: 2.5px solid #bd5324;
-    border-right: 2.5px solid #bd5324;
-}
-
-#maket{
+#boasvindas {
     width: 100%;
     height: 50%;
 }
 
-#topicos{
+#fotomaket {
     max-width: 900px;
     min-width: 300px;
-    margin:auto;
+    margin: auto;
     border-left: 2.5px solid #bd5324;
     border-right: 2.5px solid #bd5324;
 }
 
-.opcoes{
+#maket {
+    width: 100%;
+    height: 50%;
+}
+
+#topicos {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-left: 2.5px solid #bd5324;
+    border-right: 2.5px solid #bd5324;
+}
+
+.opcoes {
     text-align: center;
 }
 
@@ -126,7 +132,26 @@ header{
     transition-duration: 0.25s;
     border: 2.5px solid #bd5324;
 }
+
 .botao:hover {
     background-color: #ffffff;
     color: #bd5324;
+}
+
+#quizz {
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: 1em;
+    padding: 2% 4%;
+    border-radius: 8px;
+    transition-duration: 0.25s;
+    border: 2.5px solid #bd5324;
+}
+
+#rodape{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
 }
