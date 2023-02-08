@@ -121,6 +121,7 @@ header {
     color: #890f0d;
     padding-top: 20px;
 }
+
 h2 {
     text-align: center;
     color: #890f0d;
@@ -136,7 +137,20 @@ h2 {
 }
 
 .video {
-    width: 800px;
-    margin: auto;
-    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 70%;
+    transform: translate(-50%, -50%);
 }
