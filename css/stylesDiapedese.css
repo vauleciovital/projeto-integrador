@@ -145,3 +145,9 @@ h2 {
 .etapas img {
     width: 30%;
 }
+
+#text_faseum, #text_fasedois, #text_fasetres{
+    max-width: 700px;
+    text-align: justify;
+    margin:auto;
+}
