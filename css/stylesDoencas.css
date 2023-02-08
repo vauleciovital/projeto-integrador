@@ -121,10 +121,22 @@ header {
     color: #890f0d;
     padding-top: 20px;
 }
+h2 {
+    text-align: center;
+    color: #890f0d;
+    padding-top: 20px;
+}
 
-#doenca_um, #doenca_dois {
+#doenca_um,
+#doenca_dois {
     margin: auto;
     display: block;
     width: 50%;
     height: 40%;
+}
+
+.video {
+    width: 800px;
+    margin: auto;
+    text-align: center;
 }
